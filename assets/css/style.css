@@ -303,7 +303,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #149ddd;
+  background: #f464eb;
   bottom: 0;
   left: 0;
 }
@@ -422,7 +422,7 @@ section {
   width: 1px;
   height: 10px;
   transition: .9s;
-  background-color: #149ddd;
+  background-color: #e9ec88;
 }
 
 /*--------------------------------------------------------------
@@ -885,8 +885,8 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #149ddd;
-  border: 0;
+  background: #2cb021;
+  border: ;
   padding: 10px 24px;
   color: #fff;
   transition: 0.4s;
