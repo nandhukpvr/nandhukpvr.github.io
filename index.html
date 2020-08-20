@@ -620,6 +620,26 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+ <script>
+        $("#submit-form").submit((e)=>{
+            e.preventDefault()
+            $.ajax({
+                url:"https://script.google.com/macros/s/AKfycbx-Wqpme-107Cr2nDKL5uW3tnPmhac5rVFbZT_PZQ/exec",
+                url:"",
+                data:$("#submit-form").serialize(),
+                method:"post",
+                success:function (response){
+                    alert("Form submitted successfully")
+                    window.location.reload()
+                    //window.location.href="https://google.com"
+                },
+                error:function (err){
+                    alert("Something Error")
+    
+                }
+            })
+        })
+    </script>
 
 </body>
 
